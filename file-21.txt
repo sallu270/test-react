@@ -1,0 +1,3 @@
+Server running on http://localhost:5050
+Allowed client origin: http://localhost:5173
+Local: http://localhost:5173

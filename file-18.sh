@@ -1,0 +1,1 @@
+cp server/.env.example server/.env

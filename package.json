@@ -1,0 +1,16 @@
+{
+  "name": "premium-agency-storytelling-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium storytelling agency portfolio built with React, Tailwind CSS, Framer Motion, Lenis, and Express.",
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server",
+    "test": "npm run test --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
